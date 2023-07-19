@@ -15,6 +15,24 @@ const result = filterArrayData(array);
 console.log(result);
 ```
 
-Neste exemplo, o array fornecido é `["a", 10, "b", "hello", 122, 15]`. A função `filterArrayData` recebe esse array como entrada e retorna um objeto contendo três propriedades: `letters` (array de letras), `numbers` (array de números) e `maxNumber` (maior número encontrado).
-
 Os resultados são então exibidos no console.
+
+## Retorno Esperado
+
+Após executar o algoritmo com o exemplo de uso fornecido, espera-se obter o seguinte retorno:
+
+```javascript
+{
+  'Array de letras': [ 'a', 'b', 'hello' ],
+  'Array de números': [ 10, 122, 15 ],
+  'Maior número': 122
+}
+```
+
+Neste retorno, temos as seguintes informações:
+
+- `'Array de letras'`: Um array contendo apenas as letras presentes no array original.
+- `'Array de números'`: Um array contendo apenas os números presentes no array original.
+- `'Maior número'`: O maior número encontrado no array de números.
+
+Esses valores correspondem ao exemplo fornecido no código de uso, onde o array original é `["a", 10, "b", "hello", 122, 15]`.
