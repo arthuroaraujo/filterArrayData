@@ -34,5 +34,3 @@ Neste retorno, temos as seguintes informações:
 - `'Array de letras'`: Um array contendo apenas as letras presentes no array original.
 - `'Array de números'`: Um array contendo apenas os números presentes no array original.
 - `'Maior número'`: O maior número encontrado no array de números.
-
-Esses valores correspondem ao exemplo fornecido no código de uso, onde o array original é `["a", 10, "b", "hello", 122, 15]`.
